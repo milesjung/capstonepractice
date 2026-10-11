@@ -1,0 +1,10 @@
+idea voting board
+user: friends deciding on a single course of action for fun activities or lightweight simple options
+problem: friction in plan decision, friends are indecisive in choosing options
+hypothesis: groups of individuals like to make plans but are unable to choose on a single thing
+question: will people decide on courses of action much easier if it’s made more simple through an ideas board
+core flow: users present options, options are centralized on board, users choose options from board
+acceptance criteria:
+if multiple users can submit ideas and they show up on the board
+if users can vote for the submitted ideas and the highest voted idea wins
+if users can see all ideas in the same place
