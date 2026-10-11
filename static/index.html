@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Let's pick • Idea board</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script></head>
+<body>
+<header><a class="brand" href="/">✳ Let's pick</a><span class="badge">THE FRIEND GROUP</span></header>
+<main>
+  <section class="intro"><p class="eyebrow">LESS BACK AND FORTH. MORE HANGING OUT.</p><h1>Good ideas.<br>One great plan.</h1><p>Put your ideas on the board. Pick your favorite.<br>Let the group decide what’s next.</p></section>
+  <section class="workspace">
+    <aside><div class="panel"><p class="eyebrow">YOUR SEAT AT THE TABLE</p><label for="friend">Participating as</label><select id="friend"></select><p class="hint">Mock friends for this demo. Open another tab and choose a different friend to try a group decision.</p><hr><h2>Got an idea?</h2><form id="idea-form"><label for="title">What should we do?</label><textarea id="title" maxlength="100" required placeholder="A movie, a hike, something new…" rows="3"></textarea><button class="primary" type="submit">Add to the board <span aria-hidden="true">→</span></button></form><p class="hint">One vote per friend. Change your mind anytime.</p></div><p class="footnote">Demo board · shared across sessions<br>Resets when the server restarts.</p></aside>
+    <section class="board" aria-labelledby="board-title"><div class="board-heading"><h2 id="board-title">The idea board</h2><span id="count"></span></div><div id="result" class="result" aria-live="polite"></div><p id="status" role="status"></p><button id="retry" hidden>Retry connection</button><div id="ideas" class="cards"></div></section>
+  </section>
+</main><footer>A little less indecision. A little more together.</footer>
+</body></html>
